@@ -1,5 +1,7 @@
-# no use of nested classes
+# Do not use nested classes.
 #implementation of queue using a linked list
+
+#Create the Node class
 class Node:
   def __init__(self, data):
     self.data = data
@@ -16,7 +18,9 @@ class Node:
     
   def setNext(self, newnext):
     self.next = newnext
-      
+
+
+#Create the Linked List class      
 class Linkedlist:
   def __init__(self):
     self.head = None
@@ -41,6 +45,8 @@ class Linkedlist:
     self.head = self.head.next
     return removed
 
+
+#Create the queue class
 class Queue:
   def __init__(self):
     self.data = Linkedlist()
