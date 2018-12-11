@@ -1,2 +1,2 @@
 # algorithm_learning
-Hello
+Hello, this is a folder to store algorithm learning and implementation materials using python. 
